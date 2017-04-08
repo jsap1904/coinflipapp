@@ -4,14 +4,45 @@
 <!-- 	META VIEWPORT -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- CSS LINK -->
+		<link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
 		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		
 	</head>
 <!-- BODY  -->
 	<body>
+<div id="header">
+	<h1 class="animated flipInX"> Coin Flip App</h1>
+	<hr>
+	<h2>Can't decide? then let the coin do it for you.</h2>
+	<br>
+	</div>
 
+
+		<div class="container">
+			<div class="box">
+				<img id="coinFlipper" >
+			</div>
+			<div class="button">
+				<button type="button" id="coinFlipper" class="btn btn-primary" onclick="coinToss()"> heads or tails?</button>
+			</div>
+		</div>
+
+<div class="coin-flip">
+  <div class="coin-tails">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/US_One_Cent_Rev.png/240px-US_One_Cent_Rev.png">
+  </div>
+  <div class="coin-heads">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/US_One_Cent_Obv.png/240px-US_One_Cent_Obv.png">
+  </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src ="js/main.js"></script>
 	</body>
 <!-- 	BODY END -->
 </html>
